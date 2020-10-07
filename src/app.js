@@ -5,7 +5,7 @@ const app = express()
 const geoCode = require('./utils/geoCode')
 const weather = require('./utils/weather')
 
-//Define paths for Express
+//Define paths for Express.
 const publicPath = path.join(__dirname, '../public')
 const viewsPath = path.join(__dirname,'../templates/views')
 const partialsPath = path.join(__dirname,'../templates/partials')
